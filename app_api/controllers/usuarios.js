@@ -111,3 +111,16 @@ module.exports.borrarUno = function(req, res){
     enviarRespuestaJson(res, 404, {"message": "No ingreso usuarioid"});
   }
 };
+
+module.exports.borraTodos = function(req, res){
+  Users
+    .find().remove(function(err, success){
+      if(err){
+        console.log('Fallo la remocion');
+        enviarRespuestaJson(res, 404, {'mensaje': ' no fue posible hacer la remocion'});
+      } else {
+        console.log('Remocion exitosa');
+        enviarRespuestaJson(res, 200, {'mensaje': 'Remocion exitosa'});
+      }
+    })
+}

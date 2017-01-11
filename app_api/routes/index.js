@@ -8,5 +8,6 @@ router.get('/usuarios', controladorUsuarios.listaUsuarios);
 router.post('/usuarios', controladorUsuarios.addUsuario);
 router.put('/usuarios/:usuarioid', controladorUsuarios.actualizacionUsuario);
 router.delete('/usuarios/:usuarioid', controladorUsuarios.borrarUno);
+router.delete('/usuarios', controladorUsuarios.borraTodos);
 
 module.exports = router;
