@@ -1,0 +1,14 @@
+extends layout
+
+block content
+  .jumbotron
+    .container
+      .row
+        .col-md-12
+          h1.page-header=pageHeader.title
+          p.lead=pageHeader.strapline
+      .row
+        .col-md-12
+          each user in usuarios
+            h2=user.nombre + ' ' + user.apellido
+            

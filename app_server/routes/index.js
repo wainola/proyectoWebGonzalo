@@ -1,9 +1,8 @@
 var express = require('express');
 var router = express.Router();
+var controladorVista = require('../controllers/usuarios');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.get('/', controladorVista.paginaPrincipal);
 
 module.exports = router;
