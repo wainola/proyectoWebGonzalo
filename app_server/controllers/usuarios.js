@@ -11,9 +11,7 @@ var renderizadoPagina = function(req, res, responseBody){
       title: 'Web Classroom',
       strapline: 'Registro on-line de clases y actividades.'
     },
-    usuarios: responseBody
   });
-  console.log(responseBody);
 };
 
 module.exports.paginaPrincipal = function(req, res){

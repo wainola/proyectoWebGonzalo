@@ -1,5 +1,14 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .container
+    .col-sm-8.col-md-8.col-lg-8.col-sm-push-2.col-md-push-2.col-lg-push-2
+      .panel.panel-default.text-center
+        .panel-body
+          img(src="http://icons.iconarchive.com/icons/graphicloads/flat-finance/256/lock-icon.png" class='img-rounded')
+          .input-group.center-block
+            input(type='text' class='form-control text-center' placeholder='nombre usuario')
+          .input-group.center-block
+            input(type='text' class='form-control text-center' placeholder='contraseña')
+          .input-group.center-block
+            button.btn.btn-primary(type="submit") Go!
