@@ -1,0 +1,35 @@
+extends layout
+
+block content
+  .navbar.navbar-inverse.navbar-fixed-top
+    .container
+      .navbar-header
+        a.navbar-brand(href='/home') Home
+        //button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar-main')
+      #navbar-main.navbar-collapse.collapse
+        ul.nav.navbar-nav
+          li
+            a(href='/') Salir
+
+  .container
+    .row
+      .col-md-6
+        .panel.panel-default.center-block
+          .panel-heading.text-center
+            h2 Alumno
+          .panel-body
+            h3 Nombre
+            .well
+
+            h3 Correo
+            .well
+
+            h3 Teléfono
+            .well
+
+            h3 Asignaturas
+      .col-md-6
+        .panel.panel-default.center-block
+          .panel-heading.text-center
+            h2 Horarios
+          .panel-body
