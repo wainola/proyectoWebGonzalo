@@ -18,14 +18,14 @@
 # Requerimientos.
 
 * tabla con informacion de todos los cursos:
-		* campos cursos.
+	* campos cursos.
 
-			1. [x]nombre curso.
-			2. [ ]horario.
-			3. [ ]instructor.
-			4. [ ]partner.
-			5. [ ]observadores.
-			6. [ ]link a google drive con informacion que se entrega al comienzo.  
+		1. [ ]nombre curso.
+		2. [ ]horario.
+		3. [ ]instructor.
+		4. [ ]partner.
+		5. [ ]observadores.
+		6. [ ]link a google drive con informacion que se entrega al comienzo.  
 
 * [ ]**no inmediato:** cada curso sea un link que renderice a una pagina que muestre la evaluacion del curso.
 * usuario privilegiado debe tener un formulario donde llenar informacion de los cursos.
