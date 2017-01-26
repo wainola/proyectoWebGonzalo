@@ -19,6 +19,7 @@
 
 * tabla con informacion de todos los cursos: despliegue de:
 		* campos cursos.
+		
 			1. [ ]nombre curso.
 			2. [ ]horario.
 			3. [ ]instructor.
