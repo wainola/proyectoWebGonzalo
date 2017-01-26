@@ -17,10 +17,10 @@
 
 # Requerimientos.
 
-* tabla con informacion de todos los cursos: despliegue de:
+* tabla con informacion de todos los cursos:
 		* campos cursos.
-		
-			1. [ ]nombre curso.
+
+			1. [x]nombre curso.
 			2. [ ]horario.
 			3. [ ]instructor.
 			4. [ ]partner.
